@@ -1,0 +1,76 @@
+/* Reset some default styles for consistency */
+body, h1, h2, p, ul, li, button {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  width: 80%;
+  max-width: 500px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="number"],
+select,
+input[type="color"],
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.qrcode-preview {
+  text-align: center;
+  margin-top: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+}
